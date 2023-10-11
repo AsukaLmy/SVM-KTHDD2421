@@ -1,0 +1,2 @@
+# SVM-KTHDD2421
+lab2 SVM of ML DD2421
