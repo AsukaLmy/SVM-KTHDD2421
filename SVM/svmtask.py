@@ -69,7 +69,7 @@ def objective(alpha):
 
 #tricky 0
 start = np.zeros(N)
-C = 0.01
+C = 10000
 
 #upper constraint
 #freedom always comes with constraint
@@ -99,7 +99,7 @@ if (solutioncheck == 0):
         [p[1] for p in classB],
         'r.'
     )
-    #plt.savefig('2.RBF_F1.png')
+    #plt.savefig('filename2.png')
     plt.show()
     sys.exit()
 
@@ -156,5 +156,5 @@ plt.contour(
     linewidths = (1,3,1)
 )
 plt.axis('equal')
-plt.savefig('4.Pk.p=2.C=0.01.png')
+plt.savefig('filename.png')
 plt.show()
