@@ -50,9 +50,25 @@ A: by experimentation and validation @-@? maybe. I would try different method an
 
 In different application different choice shell be made.
 
-Opt for more slack when the noisy data should be prevented or you need easy ways to explain models, to avoid overfitting, efficient computation(s.t simpler model which is easy to explain)
+Opt for more slack when 
 
-Opt for more complex models when high accuracy is imperative, non-linear boundaries are clear, data is sufficient (sothat you can train without overfitting), you already know the model would be complex.
+the noisy data should be prevented or 
+
+you need easy ways to explain models, 
+
+to avoid overfitting, 
+
+efficient computation(s.t simpler model which is easy to explain)
+
+Opt for more complex models when 
+
+high accuracy is imperative, 
+
+non-linear boundaries are clear, 
+
+data is sufficient (sothat you can train without overfitting), 
+
+you already know the model would be complex.
 
 
 
